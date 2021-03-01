@@ -1,0 +1,82 @@
+[
+    {
+      "id": 1,
+      "name": "Tamim Iqbal",
+      "image":"https://p.imgci.com/db/PICTURES/CMS/303100/303166.jpg",
+      "playing": " Opening batsman",
+      "batting": "Left-hand bat",
+      "salary": 190000
+    },
+    {
+      "id": 2,
+      "name": "Afif Hossain",
+      "image":"https://p.imgci.com/db/PICTURES/CMS/306000/306068.icon.jpg",
+      "playing": " Opening batsman",
+      "batting": "Left-hand bat",
+      "salary": 90000
+    },
+    {
+      "id": 3,
+      "name": "Al-Amin Hossain",
+      "image":"https://p.imgci.com/db/PICTURES/CMS/302900/302973.icon.jpg",
+      "playing": " Opening bowlar",
+      "batting": "Left-hand bat",
+      "salary": 910000
+    },
+    {
+      "id": 4,
+      "name": "Liton Das",
+      "image":"https://p.imgci.com/db/PICTURES/CMS/302900/302995.icon.jpg",
+      "playing": " Opening batsman",
+      "batting": "Right-hand bat",
+      "salary": 80000
+    },
+    {
+      "id": 5,
+      "name": "Hasan Mahmud",
+      "image":"https://p.imgci.com/db/PICTURES/CMS/303200/303249.icon.jpg",
+      "playing": " Opening bowlar",
+      "batting": "Left-hand bat",
+      "salary": 60000
+    },
+    {
+      "id": 6,
+      "name": "Mahedi Hasan",
+      "image":"https://p.imgci.com/db/PICTURES/CMS/286600/286686.icon.jpg",
+      "playing": " Spring Bowlar",
+      "batting": "right-hand bat",
+      "salary": 99000
+    },
+    {
+      "id": 7,
+      "name": "Musfiq",
+      "image":"https://p.imgci.com/db/PICTURES/CMS/303100/303148.icon.jpg",
+      "playing": " Opening batsman",
+      "batting": "Left-hand bat",
+      "salary": 90000
+    },
+    {
+      "id": 8,
+      "name": "Mahmudullah",
+      "image":"https://p.imgci.com/db/PICTURES/CMS/263500/263581.icon.jpg",
+      "playing": " Middle Order batsman",
+      "batting": "Left-hand bat",
+      "salary": 880000
+    },
+    {
+      "id": 9,
+      "name": "Mehidy Hasan Miraz",
+      "image":"https://p.imgci.com/db/PICTURES/CMS/303000/303000.icon.jpg",
+      "playing": " Spring bowlar",
+      "batting": "Left-hand bat",
+      "salary": 770000
+    },
+    {
+      "id": 10,
+      "name": "Mohammad Mithun",
+      "image":"https://p.imgci.com/db/PICTURES/CMS/303100/303144.icon.jpg",
+      "playing": " Middile order batsman",
+      "batting": "Right-hand bat",
+      "salary": 70000
+    }
+  ]
