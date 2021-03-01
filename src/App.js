@@ -1,7 +1,15 @@
+import React,{useState,useEffect} from 'react';
 import logo from './logo.svg';
 import './App.css';
+import PlayersData from './Data/data.json';
 
 function App() {
+  const [players,setPlayers]= useState([]);
+
+  useEffect(()=>{
+    setPlayers(PlayersData);
+    console.log(PlayersData);
+  },[])
   return (
     <div className="App">
       <header className="App-header">
