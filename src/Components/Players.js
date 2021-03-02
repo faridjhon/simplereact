@@ -4,6 +4,7 @@ import PlayersData from '../Data/data.json' ;
 import './Players.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Player from './Player/Player';
+import PlayerCard from './PlayerCard/PlayerCard';
 
 
 const Players = () => {
@@ -45,10 +46,7 @@ const Players = () => {
                 </div>
 
                 <div className="cart-container col-md-5 ">
-                    <h4>Players Total Information</h4>
-                    
-                    <h5>Players Added: {cart.length}</h5>
-                    <button className="btn btn-danger">Review Players Information</button>
+                    <PlayerCard cart={cart}></PlayerCard>
                 </div>
         
         
