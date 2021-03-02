@@ -1,0 +1,14 @@
+.players-container{
+    display: flex;
+    
+}
+
+.player-container{
+    border-bottom:3px solid black;
+    
+}
+
+.cart-container{
+    border-left: 1px solid rosybrown;
+    
+}
