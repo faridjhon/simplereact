@@ -1,6 +1,11 @@
 import React from 'react';
 import './Player.css'
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCartPlus } from '@fortawesome/free-solid-svg-icons'
+
 const Player = (props) => {
+    
     const{image,name,playing ,batting ,salary} =props.player;
     // playing,batting
     return (
@@ -14,7 +19,9 @@ const Player = (props) => {
                 <p>Roll :{playing}</p>
                 <p>Type :{batting}</p>
                 <p>TK:{salary}Tk</p>
-                <button className="btn btn-danger ">Add to Cart</button>
+                <button className="btn btn-danger" 
+                onClick={()=>props.handleAddPlayer(props.player)}>
+                <FontAwesomeIcon icon={faCartPlus} />   Add to Cart</button>
             </div>
             
         </div>

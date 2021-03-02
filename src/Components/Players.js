@@ -9,12 +9,21 @@ import Player from './Player/Player';
 const Players = () => {
     
     const [players,setPlayers]= useState([]);
+    const [cart,setCart] = useState([]);
 
 
     useEffect(()=>{
     setPlayers(PlayersData);
     console.log(PlayersData);
     },[])
+
+    const handleAddPlayer =(player)=>{
+        const newCart=[...cart,player];
+        setCart(newCart);
+    }
+
+
+
     return (
         
         <div className="players-container mt-5 text-center ">
@@ -23,7 +32,11 @@ const Players = () => {
                     
                     
                         {
-                            players.map(pl => <Player player={pl}></Player>)
+                            players.map(pl => <Player 
+                                handleAddPlayer={handleAddPlayer}
+                                player={pl}>
+
+                                </Player>)
                             
                         }
                     
@@ -32,13 +45,10 @@ const Players = () => {
                 </div>
 
                 <div className="cart-container col-md-5 ">
+                    <h4>Players Total Information</h4>
                     
-                    <h3>Player Person : {players.length}</h3>
-                    {/* <ul>
-                        {
-                            players.map(player => <li>{player.name}</li>)
-                        }
-                    </ul> */}
+                    <h5>Players Added: {cart.length}</h5>
+                    <button className="btn btn-danger">Review Players Information</button>
                 </div>
         
         
