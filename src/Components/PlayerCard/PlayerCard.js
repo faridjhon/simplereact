@@ -1,4 +1,5 @@
 import React from 'react';
+import './PlayerCard.css';
 
 const PlayerCard = (props) => {
     const cart =props.cart;
@@ -14,10 +15,13 @@ const PlayerCard = (props) => {
 
 
     return (
-        <div>
-            <h4>Player Total Information</h4>
-            <h5>Player Added :{cart.length}</h5>
-            <p>Total Salary : {total}</p>
+        <div className="mt-5 playercard">
+            <h2>Player Total Information</h2>
+            <br></br>
+            <h5>Player Added : {cart.length}</h5>
+            <br></br>
+            <h5>Total Salary : {total}</h5>
+            <br></br>
             
         </div>
     );
