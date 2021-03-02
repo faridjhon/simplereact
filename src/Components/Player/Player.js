@@ -20,7 +20,8 @@ const Player = (props) => {
                 <p>Type :{batting}</p>
                 <p>TK:{salary}Tk</p>
                 <button className="btn btn-danger" 
-                onClick={()=>props.handleAddPlayer(props.player)}>
+                onClick={()=>props.handleAddPlayer(props.player)}
+                >
                 <FontAwesomeIcon icon={faCartPlus} />   Add to Cart</button>
             </div>
             

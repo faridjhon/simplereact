@@ -2,6 +2,7 @@ import React from 'react';
 import './PlayerCard.css';
 
 const PlayerCard = (props) => {
+    const handleAddName = props.handleAddName;
     const cart =props.cart;
 
 
@@ -19,6 +20,7 @@ const PlayerCard = (props) => {
             <h2>Player Total Information</h2>
             <br></br>
             <h5>Player Added : {cart.length}</h5>
+            <p>Player Added Name :{cart.name}</p>
             <br></br>
             <h5>Total Salary : {total}</h5>
             <br></br>

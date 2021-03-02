@@ -22,6 +22,9 @@ const Players = () => {
         const newCart=[...cart,player];
         setCart(newCart);
     }
+    const handleAddName =()=>{
+    
+    }
 
 
 
@@ -35,6 +38,7 @@ const Players = () => {
                         {
                             players.map(pl => <Player 
                                 handleAddPlayer={handleAddPlayer}
+                                handleAddName={handleAddName}
                                 player={pl}>
 
                                 </Player>)
